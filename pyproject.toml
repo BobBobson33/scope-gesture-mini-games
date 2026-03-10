@@ -1,0 +1,15 @@
+[project]
+name = "scope-gesture-arcade"
+version = "0.1.0"
+description = "Hand gesture-controlled arcade games for Scope using MediaPipe"
+requires-python = ">=3.12"
+dependencies = [
+    "mediapipe>=0.10.14",
+]
+
+[project.entry-points."scope"]
+scope_gesture_arcade = "scope_gesture_arcade.plugin"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
