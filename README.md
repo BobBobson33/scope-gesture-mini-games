@@ -2,6 +2,10 @@
 
 A Scope plugin that uses **MediaPipe Hands** to detect hand landmarks from live video and overlays gesture-controlled mini-games on the output. Supports two-hand tracking and works on CPU.
 
+
+https://github.com/user-attachments/assets/f71924b8-3468-49f0-8a97-db4de23516f0
+
+
 ## Games
 
 - **Gesture Smash** — Slash/smash targets with hand gestures (Fruit Ninja-style)
